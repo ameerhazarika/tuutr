@@ -1,0 +1,176 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  font-size:16px;
+  font-weight:bold;
+  font-stretch: normal;
+}
+
+.navbar-light .navbar-nav .nav-link.sign-up {
+    width: 144px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #f2cb05;
+    text-align: center;
+    color: #313338;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:black;
+  font-weight:400;
+}
+
+
+
+section {
+  padding:5rem;
+}
+
+.hero-section {
+  position:relative;
+}
+
+
+.hero-description {
+  line-height:1;
+  padding-bottom:6.125rem;
+}
+.hero-text {
+  color:#fff;
+}
+.hero-text h4 {
+  font-size:3.1875rem;
+  font-weight:700;
+  padding-bottom:1.375rem;
+}
+.hero-text p {
+  font-size:1.375rem;
+}
+
+.hero-text .hero-footer-text {
+  font-size:17px;
+  height:23px;
+  padding-bottom:3.1875rem;
+}
+.hero-button {
+    width: 248px;
+    height: 72px;
+    border-radius: 36px;
+    background-color: #049dd9;
+    font-size: 17px;
+    color:#fff;
+}
+
+.bg{
+  position: absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-size:cover;
+ 
+}
+
+.bg-img{
+  background-image: url(images/hero-background.jpg);
+}
+.bg-overlay {
+  background-color: rgba(49, 51, 56,0.68);
+}
+
+.courses-section h2 {
+  font-size:2.375rem;
+  color:#595959;
+  padding-bottom:1rem;
+}
+
+.course-card {
+  max-width:324px;
+  position:relative;
+  text-align: left;
+}
+.course-card h5{
+ font-size: 1.375rem;
+ font-weight:700;
+}
+
+.profile-name {
+  font-weight:100;
+}
+.card-profile-img{
+  height:auto;
+  border-radius:50%;
+  max-width:32px;
+  padding:5px;
+
+}
+.course-image {
+  position: relative;
+}
+
+.play-btn{
+  position:absolute;
+  top:80px;
+  bottom:0;
+  left:0;
+  right:0;
+  
+}
+
+.course-price {
+  font-size:2.375rem;
+  color:#595959;
+  font-weight:100;
+}
+
+.course-start-date {
+  font-size:0.625rem;
+  color:#8c8c8c;
+  font-weight:100;
+}
+.enroll-now {
+  max-width:154px;
+  height:48px;
+  border-radius:50px;
+  border: solid 1px #0e9dd9;
+  color: #0e9dd9;
+  font-size:0.8125rem;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+li {
+  padding-right:15px;
+}
+
+footer{
+  background:#595959;
+  padding:1rem;
+}
+
+footer li a {
+  font-size:17px;
+  font-weight:400;
+  line-height:1.65;
+  color:#fff;
+}
+
+
+/* mobile-styles */
+@media (max-width:768px){
+  html,body {
+    font-size:14px;
+  }
+  section {
+  padding:1rem 0;
+
+  }
+  footer ul {
+    display:block !important;
+    text-align:center;
+  }
+}
